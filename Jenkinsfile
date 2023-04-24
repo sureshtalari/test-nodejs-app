@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'npm install' 
+           git "https://github.com/sureshtalari/hello-world.git" 
         }
      }
      
